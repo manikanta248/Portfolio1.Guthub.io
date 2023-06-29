@@ -1,25 +1,29 @@
 
 nav{
     
-    background-color: rgba(207,231,249,0.6);
+    background-color:rgba(49, 33, 107, 255);
     border: 12px;
     padding: 5px;
 }
 .navbar-brand {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(49, 33, 107, 255);
+    color: rgba(30, 187, 240, 255);
+}
+.navbar-toggler{
+    background-color:rgba(49, 33, 107, 255) ;
+    color:rgba(30, 187, 240, 255) ;
 }
 .nav-item{
     padding: 20px;
-    color:rgba(49, 33, 107, 255)
+    color:rgba(49, 33, 107, 255);
 }
 .nav-item .nav-link{
-    color:rgba(49, 33, 107, 255);
+    color:white;
 }
 .nav-item .nav-link:hover{
-    color:rgba(49, 33, 107, 255);
-    background-color: rgba(30, 187, 240, 255);
-    transition-duration: 0.2s;
+    color:rgba(30, 187, 240, 255);
+   
+    transition-duration: 0.4s;
 }
 .socials a{
     color: white;
@@ -34,6 +38,7 @@ footer a{
     color: white;
     border-radius: 100%;
     background-color: rgba(49, 33, 107, 255);
+    font-size: xx-large;
 }
 .icon:hover{
     text-decoration: none;
@@ -42,7 +47,7 @@ footer a{
 
 }
 .det{
-    padding: 24px;
+    padding: 24px 0px;
 }
 .detials i{
     padding: 20px;
@@ -51,7 +56,7 @@ footer a{
     background-color: rgba(49, 33, 107, 255);
 }
 .detials i:hover{
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     text-decoration: none;
     color:white;
     background-color: rgba(30, 187, 240, 255);
@@ -78,11 +83,11 @@ form .email{
     font-size:xx-large;
 }
 form .email input{
-    width: 60%;
+    width: 72%;
     border-radius:20px ;
 }
 form .mobile input{
-    width: 40%;
+    width: 70%;
     font-size: xx-large;
     border-radius: 20px;
 }
@@ -96,7 +101,7 @@ form .name{
     font-size: xx-large;
 }
 form .name input{
-    width: 40%;
+    width: 70%;
     font-size: xx-large;
     border-radius: 20px;
 }
